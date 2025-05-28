@@ -6,6 +6,15 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:contentDescription="Back"
+        android:layout_gravity="start" />
+
     <!-- CardView tiêu đề -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
